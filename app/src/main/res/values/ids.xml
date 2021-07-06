@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="LL_AsigTirno" type="id" />
+    <item name="LL_AsigTurno" type="id" />
+</resources>

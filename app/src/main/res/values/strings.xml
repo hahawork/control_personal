@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GV Control del Personal</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_marcar_asistencias_in_out">MarcarAsistenciasInOut</string>
+    <string name="TEXT_PREGUNT_SELECCION">Has seleccionado: %1$s. Por favor procure que su repuesta sea corta y no la olvides.</string>
+    <string name="CANTIDAD_PREGUNTAS">%1d / 10</string>
+    <string name="title_activity_envios_pendientes">Envios Pendientes</string>
+    <string name="title_activity_enviar__respuesta_xpersona">Enviar Respuestas a Preguntas</string>
+    <string name="title_activity_mostrar_respuestas">MostrarRespuestas</string>
+
+
+</resources>

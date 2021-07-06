@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".EditarPersona">
+    <item
+        android:id="@+id/action_actualizar"
+        android:icon="@drawable/ic_download"
+        android:orderInCategory="100"
+        android:title="Actualizar"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_enviar"
+        android:icon="@drawable/ic_send"
+        android:orderInCategory="100"
+        android:title="Envios Pendientes"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_actualizar_app"
+        android:icon="@drawable/ic_db_actualizar"
+        android:orderInCategory="100"
+        android:title="Actualizar"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_reporte"
+        android:icon="@drawable/ic_hist_asist"
+        android:orderInCategory="100"
+        android:title="Historial del dia"/>
+    <item
+        android:id="@+id/action_Enviar_PxP"
+        android:icon="@drawable/ic_enviar_resps"
+        android:orderInCategory="100"
+        android:title="Enviar Respuestas X Persona"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/actionver_respuestas"
+        android:icon="@drawable/ic_settings"
+        android:orderInCategory="100"
+        android:title="Ver Respuestas X Persona"
+        app:showAsAction="ifRoom"/>
+</menu>

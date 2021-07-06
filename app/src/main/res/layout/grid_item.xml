@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="@dimen/person_preview_padding"
+    android:clipToPadding="false">
+
+
+    <TextView
+        android:id="@+id/tvLabelNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:minLines="3"
+        android:text="TextView"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:textColor="#0000cd"
+        android:textSize="21dp"
+        android:inputType="textCapCharacters"/>
+
+    <TextView
+        android:id="@+id/tvNombre_MA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:minLines="3"
+        android:text="TextView"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

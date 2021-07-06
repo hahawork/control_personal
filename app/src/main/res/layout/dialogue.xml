@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/RL_MainDG"
+    android:background="@drawable/borde_dialog_emergente">
+
+    <TextView
+        android:id="@+id/tvTitleDG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="serif"
+        android:text="Titulo"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/btnCloseDG"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="2dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:text="X" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tvTitleDG"
+        android:layout_margin="3dp"
+        android:background="@color/blanco"
+        android:gravity="center_vertical"
+        android:id="@+id/linearLayout3">
+
+        <ImageView
+            android:id="@+id/imgIconDG"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            app:srcCompat="@drawable/ic_actualizar" />
+
+        <TextView
+            android:id="@+id/tvMessageDG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-condensed"
+            tools:text="Mensaje" />
+
+    </LinearLayout>
+
+    <!--<Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="cerrar"
+        android:background="@drawable/borde_autocomplete"
+        android:id="@+id/btn_cerrarDG"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />-->
+</RelativeLayout>
